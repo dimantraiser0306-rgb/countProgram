@@ -6,7 +6,7 @@ let result = 0;
 
 const count = function (ball) {
     result = 20 * ball / 25;
-    return result.toFixed(1);
+    return result.toFixed(2);
 };
 
 form.addEventListener("submit", (e) => {
