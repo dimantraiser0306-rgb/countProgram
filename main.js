@@ -11,8 +11,8 @@ const count = function (ball) {
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    input.value = "";
     const ballvalue = Number(input.value);
     const finalResult = count(ballvalue);
     showResultBlock.textContent = finalResult;
+    input.value = "";
 });

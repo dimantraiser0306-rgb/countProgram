@@ -32,6 +32,9 @@ body {
         text-align: center;
         border: 1px solid rgb(32, 244, 141);
         border-radius: 10px;
+        &:focus {
+            outline: none;
+        }
     }
 }
 .show__block {
