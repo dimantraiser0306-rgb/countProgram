@@ -5,7 +5,7 @@ const showResultBlock = document.querySelector(".show__block");
 let result = 0;
 
 const count = function (ball) {
-    result = 20 * ball / 25;
+    result = 20 * ball / 45;
     return result.toFixed(2);
 };
 
